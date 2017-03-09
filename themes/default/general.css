@@ -1,0 +1,122 @@
+body{
+    margin:0;
+    background-color:lightgray;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;font-size: 16px;
+    }
+
+/* @media only screen and (min-width: 629px) { */
+    logo{
+    display: block;
+    background:url('logo.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    width:212px;
+    height: 80px;
+    margin-left: 40px;
+    margin-right: 20px;
+    float: left;
+    }
+
+    header {
+    display: table;
+    vertical-align: middle;
+    height: 95px;
+    /* border-bottom: #C7C7C7 2px solid; */
+    line-height: 40px;
+    background: rgb(0, 0, 0);
+    width: 100%;
+ }
+
+    header-container {
+    display: table-cell;
+    vertical-align: middle;
+    /* padding: 0px 30px; */
+    /* -webkit-filter: invert(100%); */
+ }
+
+    menu-container {
+    display: block;
+    /* vertical-align: middle; */
+    float: right;
+    height: 80px;
+    margin-right: 40px;
+ }
+
+    menu-item {
+    display: table-cell;
+    /* text-transform: uppercase; */
+    font-size: 1.7vmax;
+    padding: 0px 10px;
+    height: 80px;
+    vertical-align: middle;
+    font-weight: 100;
+    border-bottom: 2px solid transparent;
+ }
+
+ first-section {
+    display: block;
+    width: 100%;
+    height: 667px;
+    background: url("http://www.businessolutions.org.uk/wp-content/uploads/2014/03/courses-for-small-business-owners.jpg");
+    background-size: cover;
+    background-position: center;
+ }
+
+slider {
+    display: block;
+    background: url('3-screens.png');
+    height: 572px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    position: relative;
+ }
+
+menu-item:hover {
+    border-bottom: 4px solid white;
+    font-weight: 400;
+    cursor: pointer;
+ }
+/* } */ 
+
+slider-msg {
+    display: inline-block;
+    color: white;
+    position: absolute;
+    bottom: 6.7vmax;
+    font-size: 2.1vmax;
+    text-transform: uppercase;
+    font-weight: 300;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 0.5vmax;
+    right: 3vmax;
+}
+
+second-section {
+    display: block;
+    width: 100%;
+    height: 48.9vmax;
+    background: #2D2D2D;
+    background-size: cover;
+    /* background-position: center bottom; */
+}
+
+slider-msg2 {
+    display: inline-block;
+    color: white;
+    position: absolute;
+    bottom: 3vmax;
+    font-size: 2vmax;
+    text-transform: uppercase;
+    font-weight: 300;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 0.5vmax;
+    right: 3vmax;
+    font-style: italic;
+}
+
+* {
+    transform: scale(1,1);
+}
